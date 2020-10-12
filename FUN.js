@@ -3,7 +3,7 @@ var num = 4;
 var array = [5, 10, 20];
 
 function firstLetterName(name) {
-    var text = "The name " + name + " starts with the letter " + name.charAt(0);
+    var text = "The name " + name + " starts with the letter " + name[0];
     alert(text);
 }
 
@@ -25,8 +25,8 @@ function largestNum(bigNum) {
 }
 
 
-largestNum(name)
+largestNum(array)
 divisibleByTwo(num)
-firstLetterName(array)
+firstLetterName(name)
 
 
